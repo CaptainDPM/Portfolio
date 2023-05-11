@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    text-align: center;
   }
   
   h1, h2, h3 {
@@ -41,7 +42,8 @@ body {
   /* Main styles */
   main {
     padding: 20px;
-    background-color: grey;
+    background-color: rgb(65, 123, 189);
+    text-align: center;
   }
   
   section {
@@ -50,8 +52,6 @@ body {
   
   h2 {
     margin-bottom: 20px;
-    -webkit-text-stroke-width: .25px;
-    -webkit-text-stroke-color: white;
   }
   
   .project {
@@ -69,6 +69,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-left: 25%;
   }
   
   label {
